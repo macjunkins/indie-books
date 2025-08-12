@@ -1,0 +1,71 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Tauri
+/src-tauri/target/
+/src-tauri/Cargo.lock
+
+# Node.js (for frontend dependencies)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build outputs
+/dist/
+/build/
+*.app
+*.dmg
+*.exe
+*.msi
+*.deb
+*.AppImage
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Backup files
+*.bak
+*.backup
